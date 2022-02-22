@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hello Japan</string>
+    <string name="hiragana">Hiragana</string>
+    <string name="katakana">Katakana</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--  tag name  -->
+    <string name="imageBtn">imageBtn</string>
+    <string name="charBtn">characterBtn</string>
+    <string name="nulBtn">nullBtn</string>
+</resources>
