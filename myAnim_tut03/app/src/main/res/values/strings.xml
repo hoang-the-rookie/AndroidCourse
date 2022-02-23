@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Anim</string>
+    <string name="spin">Spin</string>
+    <string name="turn_around">Turn Around</string>
+    <string name="jump">Jump</string>
+    <string name="clap">Clap</string>
+</resources>
