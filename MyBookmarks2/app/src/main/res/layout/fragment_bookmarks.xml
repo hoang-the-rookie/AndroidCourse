@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBackground"
+    tools:context=".BookmarksFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--        mp3-->
+        <LinearLayout
+            android:id="@+id/opt_mp3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/white_rectangle_background"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/opt_bluezone"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/zingmp3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mp3"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+<!--        bluezone-->
+        <LinearLayout
+            android:id="@+id/opt_bluezone"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/white_rectangle_background"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/opt_mp3"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/bluezone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bluezone"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+<!--        baomoi-->
+        <LinearLayout
+            android:id="@+id/opt_baomoi"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/white_rectangle_background"
+            app:layout_constraintTop_toBottomOf="@id/opt_mp3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/opt_vnexpress"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/baomoi"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/baomoi"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+<!--        vnexpress-->
+        <LinearLayout
+            android:id="@+id/opt_vnexpress"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/white_rectangle_background"
+            app:layout_constraintTop_toBottomOf="@id/opt_bluezone"
+            app:layout_constraintStart_toEndOf="@id/opt_baomoi"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/vnexpress"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vnexpress"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

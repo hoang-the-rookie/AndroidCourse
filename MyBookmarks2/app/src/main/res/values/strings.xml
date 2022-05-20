@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Bookmarks</string>
+    <!--    label -->
+    <string name="mp3">Zing Mp3</string>
+    <string name="bluezone">Bluezone</string>
+    <string name="baomoi">Báo Mới</string>
+    <string name="vnexpress">VnExpress</string>
+    <string name="back">Back</string>
+    <!--    link -->
+    <string name="mp3_link">https://zingmp3.vn</string>
+    <string name="baomoi_link">https://baomoi.com</string>
+    <string name="bluezone_link">https://bluezone.gov.vn</string>
+    <string name="vnexpress_link">https://vnexpress.net</string>
+
+</resources>
