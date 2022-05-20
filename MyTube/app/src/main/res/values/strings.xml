@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Tube</string>
+    <string name="welcome">Welcome!</string>
+    <string name="link_demand">Enter link to video then click Play</string>
+    <string name="link_hint">Link to video</string>
+    <string name="default_link">https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4</string>
+
+</resources>
