@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="add_btn">Add Note</string>
+    <string name="title">Title</string>
+    <string name="content">Write something here...</string>
+    <string name="btn_delete">Delete</string>
+</resources>
