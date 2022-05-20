@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingTop="12dp"
+    android:paddingBottom="8dp"
+    android:paddingHorizontal="8dp"
+    android:background="@color/background">
+
+<!--  search bar  -->
+<!--    <LinearLayout-->
+<!--        android:id="@+id/search_bar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginHorizontal="20dp"-->
+<!--        android:paddingHorizontal="8dp"-->
+<!--        android:background="@drawable/border_solid_5">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="24dp"-->
+<!--            android:layout_height="24dp"-->
+<!--            android:src="@drawable/ic_search"-->
+<!--            android:layout_gravity="center"/>-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/et_search"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@null"-->
+<!--            android:hint="@string/search_hint"-->
+<!--            android:padding="8dp"-->
+<!--            android:focusable="false"/>-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/btn_search"-->
+<!--            android:layout_width="36dp"-->
+<!--            android:layout_height="36dp"-->
+<!--            android:background="@color/white"-->
+<!--            android:src="@drawable/ic_search"-->
+<!--            android:scaleType="fitXY"-->
+<!--            android:layout_gravity="center"/>-->
+
+<!--    </LinearLayout>-->
+
+<!--  Loading screen  -->
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/purple_darker" />
+    </RelativeLayout>
+
+<!--  Recycler view -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        android:paddingBottom="12dp"
+        android:background="@color/background">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
