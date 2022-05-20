@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Friends</string>
+    <string name="guidelines">Click item for actions, (+) for adding another friend</string>
+
+<!--  config friend  -->
+    <string name="newFriend">New Friend</string>
+    <string name="editFriend">Edit Friend</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_mail">Mail</string>
+
+</resources>
