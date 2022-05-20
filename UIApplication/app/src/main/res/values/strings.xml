@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">UI Application</string>
+    <string name="rand_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur erat vestibulum finibus condimentum. Etiam in ultricies ex, nec dignissim erat. Nam at facilisis tortor. Curabitur aliquet ligula sit amet imperdiet rutrum. Praesent consequat dignissim dui, sed egestas libero feugiat quis. Donec fringilla, eros sit amet sollicitudin convallis, lacus neque lacinia nisl, sit amet ultricies lorem massa sit amet arcu. Duis vehicula nibh leo, sit amet finibus arcu consequat eu. Mauris nec turpis vel elit vulputate aliquam accumsan in tellus.</string>
+</resources>
